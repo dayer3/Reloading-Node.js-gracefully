@@ -1,0 +1,34 @@
+{
+  "name": "reloading-node.js-gracefully",
+  "version": "1.0.0",
+  "description": "An example about reload Node.js gracefully without cut off active connections",
+  "main": "README.md",
+  "dependencies": {
+    "express": "^4.15.0",
+    "http-shutdown": "^1.2.0",
+    "server-destroy": "^1.0.1",
+    "server-shutdown": "^1.0.0",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server/master.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayer3/Reloading-Node.js-gracefully.git"
+  },
+  "keywords": [
+    "nodejs",
+    "reload",
+    "gracefully",
+    "socket",
+    "http"
+  ],
+  "author": "dayer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dayer3/Reloading-Node.js-gracefully/issues"
+  },
+  "homepage": "https://github.com/dayer3/Reloading-Node.js-gracefully#readme"
+}
